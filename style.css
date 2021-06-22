@@ -106,8 +106,12 @@ body{
 
 .hobbies-area .cat{
     position: relative;
-    top: 75px;
-    
+    top: 2rem;
+    width: 35%;
+}
+
+.hobbies-area .pizza-class{
+    width: 35%;
 }
 
 .hobbies-area p{
