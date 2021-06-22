@@ -1,7 +1,7 @@
 html{
     margin: 0px;
     padding: 0px;
-
+    font-size: 1em;
 }
 body{
     margin:0px;
@@ -11,14 +11,21 @@ body{
 
 .header-area .main-menu a{
     font-family: 'Sacramento', cursive;
-    font-size: 2rem;
+    font-size: 2em;
+}
+
+
+.header-area .main-menu img{
+    height: 50px;
 }
  
 .banner-area{
     background-color: #87ceeb;
     position: relative;
-    top: 90px;
+    top: 80px;
 }
+
+
 
 
 .first-box{
@@ -33,30 +40,29 @@ body{
     text-align: center;
 }
 
-.first-box img{
+.first-box .cloud-1{
     position: absolute;
-    top: 50px;
-    right: 100px;
+    top: 2rem;
+    right: 10rem;
 }
 
 .second-box{
     position: relative;
-    top: 70px;
+    top: 4.1rem;
 }
 
 .second-box h4{
     margin-top: 0px;
     padding-top: 20px;
-    font-weight: 300;
     font-family: 'Vesper Libre', serif;
-
+    font-size: 1.3rem;
 }
 
 .second-box h3{
     font-family: 'Bitter', serif;
 }
 .second-box h1{
-    font-size: 3rem;
+    font-size: 5.5rem;
     font-family: 'Sacramento', cursive;
     
 }
@@ -65,9 +71,58 @@ body{
 
 .third-box .cloud-2 {
     position: absolute;
-    top: 300px;
-    left: 100px;
+    top: 17rem;
+    left: 12rem;
+}
+
+
+.third-box .mountain{
+    width: 36rem;
 }
 
 
 
+.hobbies-area {
+    position: relative;
+    top: 90px;
+}
+
+
+.hobbies-area h1, .hobbies-area h3{
+    font-family: 'Bitter', serif ;
+    color: #11999E;
+}
+
+
+.hobbies-area h1{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.hobbies-area .hobby-row{
+    width: 50%;
+    margin: auto;
+}
+
+.hobbies-area .cat{
+    position: relative;
+    top: 75px;
+    
+}
+
+.hobbies-area p{
+    font-size: 1.2rem;
+    font-family: 'Bitter', serif ;
+}
+
+.hobbies-area h2, .hobbies-area .bottom-container p{
+    color: aliceblue;
+}
+
+.hobbies-area .bottom-container p{
+    font-size: 0.9rem;
+}
+
+.hobbies-area .middle-container, .hobbies-area .bottom-container{
+    text-align: center;
+}
